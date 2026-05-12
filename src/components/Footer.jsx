@@ -53,8 +53,8 @@ export default function Footer() {
             links={[
               { label: 'BMW servis', href: '/bmw-servis', route: true },
               { label: 'Audi servis', href: '/audi-servis', route: true },
-              { label: 'Mercedes servis', href: '/mercedes-servis', route: true },
-              { label: 'VW servis', href: '/vw-servis', route: true },
+              { label: 'Mercedes-Benz servis', href: '/mercedes-servis', route: true },
+              { label: 'Volkswagen servis', href: '/volkswagen-servis', route: true },
               { label: 'Škoda servis', href: '/skoda-servis', route: true },
               { label: 'Porsche servis', href: '/porsche-servis', route: true },
             ]}

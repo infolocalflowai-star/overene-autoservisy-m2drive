@@ -1,6 +1,7 @@
 import PageMeta from '../components/PageMeta.jsx'
 import Hero from '../components/Hero.jsx'
 import FindGarageForm from '../components/FindGarageForm.jsx'
+import MiniDisclaimer from '../components/MiniDisclaimer.jsx'
 import Verification from '../components/Verification.jsx'
 import WhyNotGoogleMaps from '../components/WhyNotGoogleMaps.jsx'
 import Disclaimer from '../components/Disclaimer.jsx'
@@ -48,7 +49,7 @@ const BRANDS = {
   },
   vw: {
     name: 'Volkswagen',
-    slug: 'vw-servis',
+    slug: 'volkswagen-servis',
     eyebrow: 'Volkswagen servis · Slovensko',
     title: 'Hľadáte autoservis pre Volkswagen?',
     highlight: 'Špecialista na VW Group.',
@@ -105,7 +106,9 @@ export default function BrandPage({ brandKey }) {
         showH1
       />
       <FindGarageForm prefillBrand={b.formBrand} />
+      <MiniDisclaimer />
       <Verification />
+      <MiniDisclaimer />
       <WhyNotGoogleMaps />
       <Disclaimer />
       <FinalCTA />

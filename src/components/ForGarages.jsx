@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: <Users className="h-5 w-5" />,
     title: 'Relevantní zákazníci',
-    desc: 'Dopyty od majiteľov BMW, Audi, Mercedes, VW Group a prémiových áut.',
+    desc: 'Dopyty od majiteľov BMW, Audi, Mercedes-Benz, VW Group a prémiových áut.',
   },
   {
     icon: <BadgeCheck className="h-5 w-5" />,

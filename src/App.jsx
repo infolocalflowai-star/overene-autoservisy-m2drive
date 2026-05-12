@@ -33,6 +33,7 @@ export default function App() {
           <Route path="/bmw-servis" element={<BrandPage brandKey="bmw" />} />
           <Route path="/audi-servis" element={<BrandPage brandKey="audi" />} />
           <Route path="/mercedes-servis" element={<BrandPage brandKey="mercedes" />} />
+          <Route path="/volkswagen-servis" element={<BrandPage brandKey="vw" />} />
           <Route path="/vw-servis" element={<BrandPage brandKey="vw" />} />
           <Route path="/skoda-servis" element={<BrandPage brandKey="skoda" />} />
           <Route path="/porsche-servis" element={<BrandPage brandKey="porsche" />} />

@@ -8,6 +8,7 @@ import BrandSpecialists from '../components/BrandSpecialists.jsx'
 import PrePurchaseInspection from '../components/PrePurchaseInspection.jsx'
 import ForWhom from '../components/ForWhom.jsx'
 import Verification from '../components/Verification.jsx'
+import MiniDisclaimer from '../components/MiniDisclaimer.jsx'
 import WhyNotGoogleMaps from '../components/WhyNotGoogleMaps.jsx'
 import GarageCards from '../components/GarageCards.jsx'
 import ForGarages from '../components/ForGarages.jsx'
@@ -20,7 +21,7 @@ export default function HomePage() {
   return (
     <>
       <PageMeta
-        title="Overené autoservisy pre BMW, Audi, Mercedes a VW Group | M2Drive"
+        title="Overené autoservisy pre BMW, Audi, Mercedes-Benz a VW Group | M2Drive"
         description="Nájdite overený autoservis pre BMW, Audi, Mercedes-Benz, Volkswagen, Škoda, Seat/Cupra alebo Porsche. Pomoc s výberom servisu aj predkúpnou kontrolou auta."
         canonical="https://m2drive.sk/"
       />
@@ -29,10 +30,12 @@ export default function HomePage() {
       <M2DriveVyber />
       <RecommendationFlow />
       <FindGarageForm />
+      <MiniDisclaimer />
       <BrandSpecialists />
       <PrePurchaseInspection />
       <ForWhom />
       <Verification />
+      <MiniDisclaimer />
       <WhyNotGoogleMaps />
       <GarageCards />
       <Disclaimer />

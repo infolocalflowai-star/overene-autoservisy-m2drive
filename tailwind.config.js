@@ -37,7 +37,7 @@ export default {
         ],
       },
       boxShadow: {
-        'red-glow': '0 0 0 1px rgba(225,6,0,0.35), 0 12px 40px -10px rgba(225,6,0,0.45)',
+        'red-glow': '0 0 0 1px rgba(225,6,0,0.18), 0 10px 28px -12px rgba(225,6,0,0.22)',
         'soft-lift': '0 12px 40px -12px rgba(0,0,0,0.6)',
         'inner-hairline': 'inset 0 1px 0 0 rgba(255,255,255,0.04)',
       },
@@ -45,7 +45,7 @@ export default {
         'grid-faint':
           'linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px)',
         'radial-red':
-          'radial-gradient(60% 50% at 50% 0%, rgba(225,6,0,0.18) 0%, rgba(225,6,0,0) 70%)',
+          'radial-gradient(60% 50% at 50% 0%, rgba(225,6,0,0.10) 0%, rgba(225,6,0,0) 70%)',
       },
     },
   },

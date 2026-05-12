@@ -2,9 +2,9 @@ import { ArrowRight, ShieldCheck, Wrench, Star } from 'lucide-react'
 
 export default function Hero({
   eyebrow = 'M2Drive · Slovensko',
-  title = 'Overené autoservisy pre BMW, Audi, Mercedes a VW Group.',
+  title = 'Overené autoservisy pre BMW, Audi, Mercedes-Benz a VW Group.',
   highlight,
-  subtitle = 'Pomôžeme vám vybrať autoservis so skutočnou špecializáciou na vašu značku — podľa lokality, typu opravy, reálnych recenzií a kvality komunikácie. BMW, Audi, Mercedes-Benz, Volkswagen, Škoda, Seat/Cupra a Porsche.',
+  subtitle = 'Pomôžeme vám nájsť servis, ktorý rozumie vašej značke auta — podľa lokality, typu opravy, recenzií a špecializácie. Bez náhodného výberu a zbytočného riskovania.',
   showH1 = true,
   primaryHref = '#najst-autoservis',
   primaryLabel = 'Nájsť vhodný servis',
@@ -15,7 +15,7 @@ export default function Hero({
   return (
     <section id="domov" className="relative overflow-hidden pt-28 sm:pt-32">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute inset-x-0 top-0 h-[700px] bg-radial-red opacity-80" />
+        <div className="absolute inset-x-0 top-0 h-[700px] bg-radial-red opacity-60" />
         <div className="absolute inset-0 bg-grid-faint [background-size:64px_64px] opacity-[0.15] mask-fade-b" />
         <div className="absolute -top-32 left-1/2 h-[420px] w-[820px] -translate-x-1/2 rounded-full bg-brand-red/[0.06] blur-3xl" />
       </div>
@@ -44,7 +44,7 @@ export default function Hero({
                 <>
                   Overené autoservisy{' '}
                   <span className="block text-gradient-red">
-                    pre BMW, Audi, Mercedes a VW Group.
+                    pre BMW, Audi, Mercedes-Benz a VW Group.
                   </span>
                 </>
               )}

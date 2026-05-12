@@ -19,7 +19,7 @@ export default function GarageCards() {
             <ul className="mt-8 space-y-3 text-sm text-white/65">
               <li className="flex items-center gap-3">
                 <span className="inline-block h-1.5 w-1.5 rounded-full bg-brand-red" />
-                Začíname BMW, Audi a Mercedes špecialistami.
+                Začíname BMW, Audi a Mercedes-Benz špecialistami.
               </li>
               <li className="flex items-center gap-3">
                 <span className="inline-block h-1.5 w-1.5 rounded-full bg-white/30" />

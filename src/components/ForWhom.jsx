@@ -1,7 +1,7 @@
 import { Check, X } from 'lucide-react'
 
 const forWhom = [
-  'Vodičom BMW, Audi, Mercedes, VW Group, Škody, Seatu/Cupry a Porsche.',
+  'Vodičom BMW, Audi, Mercedes-Benz, VW Group, Škody, Seatu/Cupry a Porsche.',
   'Tým, ktorí hľadajú servis so skutočnou špecializáciou na svoju značku.',
   'Záujemcom o kúpu jazdeného auta, ktorí ho chcú nezávisle preveriť.',
   'Ľuďom, ktorí nechcú vyberať servis náhodne podľa najbližšieho bodu na mape.',

@@ -5,7 +5,7 @@ const principles = [
     n: '01',
     icon: <Filter className="h-5 w-5" />,
     title: 'Špecializácia, nie univerzálnosť',
-    desc: 'Vyhľadávame servisy s reálnym zameraním na konkrétne značky — BMW, Audi, Mercedes, VW Group alebo Porsche. Nie dielne, ktoré „opravia všetko".',
+    desc: 'Vyhľadávame servisy s reálnym zameraním na konkrétne značky — BMW, Audi, Mercedes-Benz, VW Group alebo Porsche. Nie dielne, ktoré „opravia všetko".',
   },
   {
     n: '02',

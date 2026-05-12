@@ -53,7 +53,7 @@ export default function FindGarageForm({ prefillBrand = '' }) {
             <ul className="mt-8 space-y-4 text-sm">
               {[
                 ['Manuálne vybrané servisy', 'Žiadne náhodné garáže z internetu.'],
-                ['Špecializácia na značku', 'BMW, Audi, Mercedes, VW Group, Porsche.'],
+                ['Špecializácia na značku', 'BMW, Audi, Mercedes-Benz, VW Group, Porsche.'],
                 ['Transparentná komunikácia', 'Reálne odpovede, reálne ceny.'],
               ].map(([t, d]) => (
                 <li key={t} className="flex gap-3">
