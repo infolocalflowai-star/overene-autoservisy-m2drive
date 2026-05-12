@@ -22,8 +22,8 @@ export default function Contact() {
             <ContactCard
               icon={<Mail className="h-5 w-5" />}
               label="Email"
-              value="info@m2drive.sk"
-              href="mailto:info@m2drive.sk"
+              value="m2drive.office@gmail.com"
+              href="mailto:m2drive.office@gmail.com"
             />
             <ContactCard
               icon={<Phone className="h-5 w-5" />}
