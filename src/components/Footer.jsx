@@ -35,8 +35,8 @@ export default function Footer() {
             title="Platforma"
             links={[
               { label: 'Nájsť vhodný servis', href: '/#najst-autoservis' },
+              { label: 'Zoznam autoservisov', href: '/autoservisy', route: true },
               { label: 'Preveriť jazdené auto', href: '/predkupna-kontrola-auta', route: true },
-              { label: 'Značky', href: '/#znacky' },
               { label: 'Ako to funguje', href: '/#ako-funguje' },
             ]}
           />

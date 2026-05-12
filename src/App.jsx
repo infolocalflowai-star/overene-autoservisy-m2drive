@@ -6,6 +6,8 @@ import HomePage from './pages/HomePage.jsx'
 import BrandPage from './pages/BrandPage.jsx'
 import PrePurchasePage from './pages/PrePurchasePage.jsx'
 import ForGaragesPage from './pages/ForGaragesPage.jsx'
+import GaragesPage from './pages/GaragesPage.jsx'
+import GarageProfilePage from './pages/GarageProfilePage.jsx'
 
 function ScrollToTopOnRouteChange() {
   const { pathname, hash } = useLocation()
@@ -39,6 +41,8 @@ export default function App() {
           <Route path="/porsche-servis" element={<BrandPage brandKey="porsche" />} />
           <Route path="/predkupna-kontrola-auta" element={<PrePurchasePage />} />
           <Route path="/pre-autoservisy" element={<ForGaragesPage />} />
+          <Route path="/autoservisy" element={<GaragesPage />} />
+          <Route path="/autoservisy/:slug" element={<GarageProfilePage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>

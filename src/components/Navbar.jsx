@@ -5,8 +5,8 @@ import { Link, useLocation } from 'react-router-dom'
 const links = [
   { href: '#domov', label: 'Domov' },
   { href: '#najst-autoservis', label: 'Nájsť servis' },
+  { href: '/autoservisy', label: 'Autoservisy', route: true },
   { href: '#predkupna-kontrola', label: 'Predkúpna kontrola' },
-  { href: '#znacky', label: 'Značky' },
   { href: '/pre-autoservisy', label: 'Pre autoservisy', route: true },
   { href: '#kontakt', label: 'Kontakt' },
 ]
