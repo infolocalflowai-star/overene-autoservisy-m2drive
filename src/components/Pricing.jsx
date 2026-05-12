@@ -70,14 +70,13 @@ export default function Pricing() {
     <section id="cennik" className="section">
       <div className="container-tight">
         <div className="max-w-3xl">
-          <span className="eyebrow-red">Cenník pre servisy</span>
+          <span className="eyebrow">Cenník pre servisy</span>
           <h2 className="section-title mt-5">
-            Jasné možnosti{' '}
-            <span className="text-gradient-red">pre kvalitné autoservisy.</span>
+            Jasné možnosti pre kvalitné autoservisy.
           </h2>
           <p className="section-sub">
-            Začnite zdarma alebo posuňte svoj servis na úroveň s overeným
-            profilom, vyššou viditeľnosťou a exkluzívnymi dopytmi.
+            Začnite zdarma alebo posuňte svoj servis vyššie s overeným
+            profilom, väčšou viditeľnosťou a exkluzívnymi dopytmi.
           </p>
         </div>
 

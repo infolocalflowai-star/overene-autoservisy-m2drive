@@ -16,10 +16,9 @@ export default function Verification() {
       <div className="container-tight">
         <div className="grid lg:grid-cols-12 gap-10">
           <div className="lg:col-span-5">
-            <span className="eyebrow-red">M2Drive overenie</span>
+            <span className="eyebrow">M2Drive overenie</span>
             <h2 className="section-title mt-5">
-              Ako overujeme{' '}
-              <span className="text-gradient-red">autoservisy.</span>
+              Ako overujeme autoservisy.
             </h2>
             <p className="section-sub">
               Toto nie je oficiálna štátna certifikácia. Je to{' '}

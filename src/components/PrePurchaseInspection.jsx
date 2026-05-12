@@ -31,7 +31,7 @@ export default function PrePurchaseInspection() {
           <div className="lg:col-span-6">
             <span className="eyebrow-red">
               <ShieldCheck className="h-3.5 w-3.5" />
-              Predkúpna kontrola
+              Preveriť jazdené auto
             </span>
             <h2 className="section-title mt-5">
               Nekupujte jazdené auto naslepo.{' '}

@@ -4,12 +4,12 @@ export default function FinalCTA() {
   return (
     <section className="section">
       <div className="container-tight">
-        <div className="relative overflow-hidden rounded-3xl border border-brand-red/30 bg-gradient-to-br from-brand-red/[0.15] via-black to-black p-10 sm:p-16 text-center shadow-red-glow">
-          <div className="pointer-events-none absolute inset-0 bg-grid-faint [background-size:48px_48px] opacity-[0.18] mask-fade-b" />
-          <div className="pointer-events-none absolute -top-32 left-1/2 h-64 w-[700px] -translate-x-1/2 rounded-full bg-brand-red/20 blur-3xl" />
+        <div className="relative overflow-hidden rounded-3xl border border-brand-red/25 bg-gradient-to-br from-brand-red/[0.10] via-black to-black p-10 sm:p-16 text-center">
+          <div className="pointer-events-none absolute inset-0 bg-grid-faint [background-size:48px_48px] opacity-[0.14] mask-fade-b" />
+          <div className="pointer-events-none absolute -top-32 left-1/2 h-64 w-[700px] -translate-x-1/2 rounded-full bg-brand-red/15 blur-3xl" />
 
           <div className="relative">
-            <span className="eyebrow-red">M2Drive</span>
+            <span className="eyebrow">M2Drive</span>
             <h2 className="font-display text-3xl sm:text-5xl font-bold mt-5 leading-[1.05]">
               Vaše auto si zaslúži{' '}
               <span className="text-gradient-red">servis, ktorý mu rozumie.</span>
@@ -22,12 +22,12 @@ export default function FinalCTA() {
 
             <div className="mt-9 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
               <a href="#najst-autoservis" className="btn-primary">
-                Nájsť autoservis
+                Nájsť vhodný servis
                 <ArrowRight className="h-4 w-4" />
               </a>
               <a href="#predkupna-kontrola" className="btn-secondary">
                 <ShieldCheck className="h-4 w-4 text-brand-red" />
-                Chcem predkúpnu kontrolu
+                Preveriť jazdené auto
               </a>
             </div>
           </div>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="relative border-t border-white/[0.06] bg-black">
@@ -23,32 +25,38 @@ export default function Footer() {
               Pomáhame vodičom nájsť servis, ktorému môžu veriť. Starostlivo
               vybrané servisy so zameraním na konkrétne značky áut.
             </p>
+            <p className="mt-4 max-w-sm text-[12px] text-white/40 leading-relaxed">
+              M2Drive nie je autoservis a neudeľuje úradnú certifikáciu —
+              pomáhame s výberom vhodného servisu.
+            </p>
           </div>
 
           <FooterCol
             title="Platforma"
             links={[
-              ['Nájsť autoservis', '#najst-autoservis'],
-              ['Predkúpna kontrola', '#predkupna-kontrola'],
-              ['Značky', '#znacky'],
+              { label: 'Nájsť vhodný servis', href: '/#najst-autoservis' },
+              { label: 'Preveriť jazdené auto', href: '/predkupna-kontrola-auta', route: true },
+              { label: 'Značky', href: '/#znacky' },
+              { label: 'Ako to funguje', href: '/#ako-funguje' },
             ]}
           />
           <FooterCol
             title="Pre servisy"
             links={[
-              ['Pre autoservisy', '#pre-autoservisy'],
-              ['Cenník', '#cennik'],
-              ['Kontakt', '#kontakt'],
+              { label: 'Pridať autoservis', href: '/pre-autoservisy', route: true },
+              { label: 'Cenník', href: '/#cennik' },
+              { label: 'Kontakt', href: '/#kontakt' },
             ]}
           />
           <FooterCol
             title="Značky"
             links={[
-              ['BMW servis', '#bmw-servis'],
-              ['Audi servis', '#audi-servis'],
-              ['Mercedes servis', '#mercedes-servis'],
-              ['VW / Škoda', '#volkswagen-servis'],
-              ['Porsche servis', '#porsche-servis'],
+              { label: 'BMW servis', href: '/bmw-servis', route: true },
+              { label: 'Audi servis', href: '/audi-servis', route: true },
+              { label: 'Mercedes servis', href: '/mercedes-servis', route: true },
+              { label: 'VW servis', href: '/vw-servis', route: true },
+              { label: 'Škoda servis', href: '/skoda-servis', route: true },
+              { label: 'Porsche servis', href: '/porsche-servis', route: true },
             ]}
           />
         </div>
@@ -58,6 +66,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-white/40">
           <div>© {new Date().getFullYear()} M2Drive · Overené Autoservisy. Všetky práva vyhradené.</div>
           <div className="flex items-center gap-5">
+            <a href="/#disclaimer" className="hover:text-white/70 transition">Disclaimer</a>
             <a href="#" className="hover:text-white/70 transition">Ochrana súkromia</a>
             <a href="#" className="hover:text-white/70 transition">Podmienky</a>
           </div>
@@ -72,11 +81,17 @@ function FooterCol({ title, links }) {
     <div className="md:col-span-2">
       <div className="text-xs uppercase tracking-[0.18em] text-white/45">{title}</div>
       <ul className="mt-5 space-y-2.5">
-        {links.map(([label, href]) => (
-          <li key={label}>
-            <a href={href} className="text-sm text-white/75 hover:text-brand-red transition">
-              {label}
-            </a>
+        {links.map((l) => (
+          <li key={l.label}>
+            {l.route ? (
+              <Link to={l.href} className="text-sm text-white/75 hover:text-brand-red transition">
+                {l.label}
+              </Link>
+            ) : (
+              <a href={l.href} className="text-sm text-white/75 hover:text-brand-red transition">
+                {l.label}
+              </a>
+            )}
           </li>
         ))}
       </ul>

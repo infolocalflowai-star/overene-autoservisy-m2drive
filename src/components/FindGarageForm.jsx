@@ -15,10 +15,10 @@ const serviceTypes = [
   'Iné',
 ]
 
-export default function FindGarageForm() {
+export default function FindGarageForm({ prefillBrand = '' }) {
   const [sent, setSent] = useState(false)
   const [form, setForm] = useState({
-    znacka: '',
+    znacka: prefillBrand,
     model: '',
     rok: '',
     lokalita: '',
@@ -40,15 +40,14 @@ export default function FindGarageForm() {
       <div className="container-tight">
         <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <div className="lg:col-span-5">
-            <span className="eyebrow-red">Dopytový formulár</span>
+            <span className="eyebrow">Nájsť vhodný servis</span>
             <h2 className="section-title mt-5">
-              Pošlite dopyt. Nájdeme servis,{' '}
-              <span className="text-gradient-red">ktorý rozumie vášmu autu.</span>
+              Pošlite dopyt. Nájdeme servis, ktorý rozumie vášmu autu.
             </h2>
             <p className="section-sub">
               Napíšte nám pár informácií o aute a probléme. Spojíme vás s
-              vhodným servisom, ktorý sa špecializuje na vašu značku a
-              poskytne vám transparentnú ponuku.
+              vhodným servisom z M2Drive výberu — so zameraním na vašu značku
+              a transparentnou komunikáciou.
             </p>
 
             <ul className="mt-8 space-y-4 text-sm">

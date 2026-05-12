@@ -33,20 +33,17 @@ export default function ForGarages() {
 
           <div className="relative grid lg:grid-cols-12 gap-10 items-start">
             <div className="lg:col-span-5">
-              <span className="eyebrow-red">Pre autoservisy</span>
+              <span className="eyebrow">Pre autoservisy</span>
               <h2 className="section-title mt-5">
-                Prevádzkujete kvalitný autoservis?{' '}
-                <span className="text-gradient-red">
-                  Staňte sa M2Drive partnerom.
-                </span>
+                Prevádzkujete kvalitný autoservis? Staňte sa M2Drive partnerom.
               </h2>
               <p className="section-sub">
                 Pomáhame vodičom nájsť servis, ktorému môžu veriť. Ak ho
-                prevádzkujete, radi vás zaradíme do nášho výberu.
+                prevádzkujete, radi vás zaradíme do M2Drive výberu.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <a href="#kontakt" className="btn-primary">
-                  Stať sa partnerom
+                  Pridať autoservis
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a href="#cennik" className="btn-secondary">

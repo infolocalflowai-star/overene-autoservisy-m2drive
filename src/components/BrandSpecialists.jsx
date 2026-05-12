@@ -65,18 +65,17 @@ export default function BrandSpecialists() {
       <div className="container-tight">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
           <div>
-            <span className="eyebrow-red">Špecializácia</span>
+            <span className="eyebrow">Špecializácia</span>
             <h2 className="section-title mt-5">
-              Každá značka má vlastné{' '}
-              <span className="text-gradient-red">slabé miesta.</span>
+              Každá značka má vlastné slabé miesta.
             </h2>
             <p className="section-sub">
               Preto pracujeme so servismi, ktoré sa zameriavajú na konkrétne
-              značky — nie s univerzálnymi dielňami, ktoré opravia „všetko“.
+              značky — nie s univerzálnymi dielňami, ktoré opravia „všetko".
             </p>
           </div>
           <a href="#najst-autoservis" className="btn-secondary self-start lg:self-end">
-            Nájsť špecialistu
+            Nájsť vhodný servis
             <ArrowRight className="h-4 w-4" />
           </a>
         </div>
